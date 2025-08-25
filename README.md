@@ -18,7 +18,7 @@ This Extension add a new field called Progress Tracker, this field allows to cre
 
 <img width="693" height="270" alt="image" src="https://github.com/user-attachments/assets/7fe37331-767f-4604-8903-baf6332f962f" />
 
-Various option to customize the field:
+Various options to customize the field:
 
 <img width="632" height="935" alt="image" src="https://github.com/user-attachments/assets/48d7fd98-1cca-44e3-a857-1c9aa5f78739" />
 
