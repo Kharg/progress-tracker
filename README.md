@@ -1,6 +1,7 @@
 # Module - Progress Tracker
 This Extension add a new field called Progress Tracker, this field allows to create a custom progress tracker that works like an enum field.
 
+Based on [DDS Progress Tracker](https://www.delldesignsystem.com/components/progress-tracker/?tab=Vanilla)
 ## Table of Contents
 
 * [Introduction](#introduction)
