@@ -31,7 +31,7 @@ After installation visit the entity manager to create a new Progress Tracker fie
 
 ## Requires
 
-- EspoCRM >= 7.0
+- EspoCRM >= 8.0
 
 
 ## Installation
