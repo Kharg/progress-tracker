@@ -1,0 +1,14 @@
+{
+    "name": "Progress Tracker",
+    "description": "Progress Tracker enum field.",
+    "author": "Andrea Fontana",
+    "php": [
+        ">=8.0"
+    ],
+    "acceptableVersions": [
+        ">=8.0"
+    ],
+    "version": "1.0.0",
+    "skipBackup": true,
+    "releaseDate": "2025-08-25"
+}

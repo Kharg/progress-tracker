@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "mode": "Mode",
+        "color": "Color"
+    },
+    "fieldTypes": {
+        "progressTracker": "Progress Tracker"
+    },
+    "options": {
+        "mode": {
+            "progress-tracker": "Progress Tracker",
+            "progress-tracker-sm": "Progress Tracker (Small)"
+        }
+    }
+}

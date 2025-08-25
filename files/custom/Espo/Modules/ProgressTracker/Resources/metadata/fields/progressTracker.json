@@ -1,0 +1,85 @@
+{
+    "view": "progress-tracker:views/fields/progress-tracker",
+    "params": [
+        {
+            "name": "required",
+            "type": "bool",
+            "default": false
+        },
+        {
+            "name": "options",
+            "type": "array",
+            "view": "views/admin/field-manager/fields/options-with-style",
+            "tooltip": true
+        },
+        {
+            "name": "default",
+            "type": "enum",
+            "view": "views/admin/field-manager/fields/options/default"
+        },
+        {
+            "name": "optionsReference",
+            "type": "varchar",
+            "view": "views/admin/field-manager/fields/options-reference",
+            "tooltip": true
+        },
+        {
+            "name": "style",
+            "type": "jsonObject",
+            "hidden": true
+        },
+        {
+            "name": "translation",
+            "type": "varchar",
+            "hidden": true
+        },
+        {
+            "name": "optionsPath",
+            "type": "varchar",
+            "hidden": true
+        },
+        {
+            "name": "mode",
+            "type": "enum",
+            "default": "progress-tracker",
+            "options": [
+                "progress-tracker-sm",
+                "progress-tracker"
+            ]
+        },
+        {
+            "name": "color",
+            "default": "#0f62fe",
+            "type": "colorpicker"
+        },
+        {
+            "name": "audited",
+            "type": "bool"
+        },
+        {
+            "name": "readOnly",
+            "type": "bool"
+        },
+        {
+            "name": "readOnlyAfterCreate",
+            "type": "bool"
+        }
+    ],
+    "validationList": [
+        "required",
+        "valid",
+        "maxLength"
+    ],
+    "mandatoryValidationList": [
+        "valid",
+        "maxLength"
+    ],
+    "filter": false,
+    "fieldDefs": {
+        "notStorable": false,
+        "type": "varchar",
+        "layoutListDisabled": true
+    },
+    "dynamicLogicOptions": true,
+    "translatedOptions": true
+}
