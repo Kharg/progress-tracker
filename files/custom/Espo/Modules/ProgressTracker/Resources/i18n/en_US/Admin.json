@@ -8,8 +8,9 @@
     },
     "options": {
         "mode": {
-            "progress-tracker": "Progress Tracker",
-            "progress-tracker-sm": "Progress Tracker (Small)"
+            "progress-tracker-sm": "Progress Tracker (Small)",
+            "progress-tracker-md": "Progress Tracker (Medium)",
+            "progress-tracker": "Progress Tracker (Big)"
         }
     }
 }

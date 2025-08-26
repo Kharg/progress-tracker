@@ -30,7 +30,6 @@ define('progress-tracker:views/fields/progress-tracker', ['views/fields/enum'], 
                 const isActive = index === currentIndex;
 
                 return {
-                    ...super.data(),
                     value: value,
                     label: label,
                     isComplete: isComplete,
@@ -39,12 +38,9 @@ define('progress-tracker:views/fields/progress-tracker', ['views/fields/enum'], 
             });
 
             return _.extend({
-                fieldValue: fieldValue,
-                mode: mode,
-                color: color,
                 values: modifiedValues,
-                originalValues: values,
-                currentIndex: currentIndex
+                mode: mode,
+                color: color
             }, super.data());
         }
     };

@@ -1,4 +1,4 @@
-<ol class="dds__progress-tracker{{#ifEqual mode 'progress-tracker-sm'}}--sm{{/ifEqual}}" style="--tracker-color: {{color}};">
+<ol class="dds__progress-tracker{{#ifEqual mode 'progress-tracker-sm'}}--sm{{/ifEqual}}{{#ifEqual mode 'progress-tracker-md'}}--md{{/ifEqual}}" style="--tracker-color: {{color}};">
     {{#each values}}
         <li class="dds__progress-tracker__item
             {{#if isComplete}}dds__progress-tracker--complete

@@ -41,9 +41,10 @@
         {
             "name": "mode",
             "type": "enum",
-            "default": "progress-tracker",
+            "default": "progress-tracker-md",
             "options": [
                 "progress-tracker-sm",
+                "progress-tracker-md",
                 "progress-tracker"
             ]
         },
