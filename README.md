@@ -13,10 +13,10 @@ Based on [DDS Progress Tracker](https://www.delldesignsystem.com/components/prog
 
 This Extension add a new field called Progress Tracker, this field allows to create a custom progress tracker that works like an enum field:
 
-- 2 sizes small and normal
+- 3 sizes small, medium and big
 - Customizable color
 
-<img width="693" height="270" alt="image" src="https://github.com/user-attachments/assets/7fe37331-767f-4604-8903-baf6332f962f" />
+<img width="1038" height="432" alt="image" src="https://github.com/user-attachments/assets/1e95b712-a09d-4722-b414-cf53c2acce87" />
 
 Various options to customize the field:
 
