@@ -1,7 +1,8 @@
 define('progress-tracker:views/fields/progress-tracker', ['views/fields/enum'], (Dep) => {
     return class extends Dep {
         type = 'progressTracker'
-        detailTemplate = 'progress-tracker:views/fields/progress-tracker'
+        detailTemplate = 'progress-tracker:views/fields/progress-tracker/detail'
+        listTemplate = 'progress-tracker:views/fields/progress-tracker/list'
         editTemplate = 'fields/enum/edit'
         searchTemplate = 'fields/enum/search'
 

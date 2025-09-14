@@ -79,7 +79,7 @@
     "fieldDefs": {
         "notStorable": false,
         "type": "varchar",
-        "layoutListDisabled": true
+        "layoutListDisabled": false
     },
     "dynamicLogicOptions": true,
     "translatedOptions": true
